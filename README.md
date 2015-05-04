@@ -4,12 +4,23 @@ Markdown permiti-lhe escrever usando fácil de ler, facil de escrever formato de
 válida para visualização GitHub.
 
 Escrita básica
+
 Paragrafos em Markdown são apenas uma ou mais linhas de textos consecutivos seguido por uma ou mais linhas em branco . 
+Em 2 de julho , uma nave-mãe alienígena entrou em órbita da Terra e implantado várias dezenas em forma de pires nave espacial "destruidor " , a cada 15 milhas ( 24 quilômetros ) de largura.
+
+Em 3 de julho , os Cavaleiros Negros , um esquadrão de Marine Corps F / A- 18 Hornets, participou de um assalto em um destroyer perto da cidade de Los Angeles.
 
 Os Titulos
+
 voce pode criar um titulo,adicionando um ou mais simbolos antes de seu texto de titulo.O numero de # voce usa irá determinar o tamanho do cabeçalho.
 
+# O maior título ( uma tag <h1> )
+## A segunda maior rubrica ( um < h2> tag )
+...
+###### A maior rubrica 6 ( um < h6 > tag )
+
 Blockquotes
+
 voce pode indicar blockquotes 
 com um  >.
 
