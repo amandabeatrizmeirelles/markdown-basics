@@ -1,53 +1,75 @@
-# markdown-basics
-Noções basicas de remarcação
-Markdown permiti-lhe escrever usando fácil de ler, facil de escrever formato de texto simples, que então se converte em HTML
-válida para visualização GitHub.
+<html>
+## Markdown Basics 
+<p><a href="http://daringfireball.net/projects/markdown/">Markdown </a> permite-lhe escrever usando um formato de texto simples, fácil para ler e escrever, do qual então se converte em HTML válido para visualização no GITHUB.</p>
+### Escrita Básica 
+####Parágrafos
+<p>Parágrafos em Markdown são apenas uma ou mais linhas de texto consecutivos seguidos por uma ou mais linhas em branco.</p>
+<pre><code>
+Em 2 de julho, uma nave-mãe alienígena entrou em órbita da Terra e implantado várias dezenas nave espacial em forma de pires "destruidor", a cada 15 milhas (24 km) de largura. 
 
-Escrita básica
+Em 3 de julho, os Cavaleiros Negros, um esquadrão de Marine Corps F / A-18 Hornets , participou de uma investida ao destruidor perto da cidade de Los Angeles.
+</code></pre>
+####Cabeçalhos
+<p>Você pode criar um cabeçalho adicionando um ou mais <code>#</code> símbolos antes do seu texto de cabeçalho.</P>
+ Número de <code>#</code> que você usa vão determinar o tamanho do seu cabeçalho.</p>
+<pre><p># O maior título (uma tag <code>&lt;/h1&gt;</code>)
+## O segundo maior título  (uma tag <code>&lt;/h2&gt;</code>)
+... 
+###### O 6º maior título (uma tag <code>&lt;/h6&gt;</code> ) </p> </pre>
+#### Bloco de Citação
+<p> Você pode criar uma <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">Bloco de Citação</a> com um <code>></code>.
+<pre>Nas palavras de Abraham Lincoln:
+<code>></code> Pardon My French</pre></p>
+####Texto Styling
+<p>Você pode fazer o texto <strong><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong">em negrito</a></strong> ou <em>itálico</em>.</p>
+<pre> 
+*Este texto pode ser itálico* 
+**Este texto pode ser em negrito** </pre>
+<p> Ambos <strong>negrito</strong> e <em>itálico</em> pode usar um <code>*</code> ou um <code>_</code> em torno do texto para o estilo. Isso permite que você combine os dois em negrito e itálico, se for necessário. </p>
+<pre>** Todos _devem_ participar da reunião às 5 horas de hoje. **</pre>
+###Listas
+####Listas não ordenadas
+<p>Você pode fazer uma <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul">lista desordenada</a> precedendo itens da lista ou com um <code>*</code> ou com um <code>-</code>.</p>
+<pre>
+* Item
+* Item
+* Item
 
-Paragrafos em Markdown são apenas uma ou mais linhas de textos consecutivos seguido por uma ou mais linhas em branco . 
-Em 2 de julho , uma nave-mãe alienígena entrou em órbita da Terra e implantado várias dezenas em forma de pires nave espacial "destruidor " , a cada 15 milhas ( 24 quilômetros ) de largura.
-
-Em 3 de julho , os Cavaleiros Negros , um esquadrão de Marine Corps F / A- 18 Hornets, participou de um assalto em um destroyer perto da cidade de Los Angeles.
-
-Os Titulos
-
-voce pode criar um titulo,adicionando um ou mais simbolos antes de seu texto de titulo.O numero de # voce usa irá determinar o tamanho do cabeçalho.
-
-# O maior título ( uma tag <h1> )
-## A segunda maior rubrica ( um < h2> tag )
-...
-###### A maior rubrica 6 ( um < h6 > tag )
-
-Blockquotes
-
-voce pode indicar blockquotes 
-com um  >.
-
-Texto styling
-voce pode fazer o texto em negrito ou itálico.
-Ambos negrito e itálico pode usar um * ou um _ em torno do texto para o estilo.Isso permite que voce pode combinar os dois em negrito ou itálico, se necessário.
-
-Listas
-
-Listas não ordenadas
-Voce pode fazer uma lista desordenada precedendo itens da lista ou com um * ou com um _.
-
-Listas ordenadas
-Voce pode fazer uma lista ordenada precedendo itens da lista com numeros.
-
-Listas aninhadas
-voce pode criar listas aninhadas pelo recuo dos itens da lista por dois espaços
-
-A formatação dos codigos
-
-Várias linhas
-voce pode usar acentos graves triplos `´ para formatar o texto como seu proprio bloco distinta.
-
-Links
-Você pode criar uma ligação em linha por envolvimento link texto entre colchetes [], e, em seguida, envolver a ligação entre parênteses ( )
-Por exemplo, para criar um hiperlink para www.github.com , com um texto de link que diz, visita GitHub, você escreveria isso em Markdown:([Visite GitHub) (www.github.com) .
-
-
-
-
+- Item
+- Item
+- Item </pre>
+####Listas ordenadas
+<p>Você pode fazer uma <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol"> lista ordenada</a> precedendo alguns itens da lista com um número.</p>
+<pre><code>1. Item 1
+2. Item 2
+3. Item 3</code></pre>
+####Listas aninhadas
+<p>Você pode criar listas aninhadas pelo recuo dos itens da lista por dois espaços.</p>
+<pre><code>1. Item 1
+ 1. Um corolário do item acima.
+ 2. No entanto, outro ponto a considerar
+2. O Item 2
+ * Um corolário que não precisa ser solicitado.
+   * Este é recuado em quatro espaços, porque dois espaços são mais longe do que o item acima.
+   * Você pode querer fazer uma nova lista.
+3. O Item 3</code></pre>
+###A formatação do código
+####Formatos em linha
+<p>Use apóstrofos (<code>`</code>) para formatar o texto em um formato especial em um espaço único. Tudo dentro dos apóstrofos, sem nenhuma formatação especial.</p>
+ <pre>Aqui está uma ideia: por que não vamos tomar \`ProjetoSuperior\` e transformá-lo em \`projeto ** razoável **\`.</pre>
+###Linhas Múltiplas
+ <p>Você pode usar apóstrofos triplos (<code>\`\`\`</code>) para formatar o texto com o seu próprio bloco distinto.</p>
+ Confira este programa que eu  escrevi:
+ <pre><code> \`\`\`
+ x = 0
+ x = 2+2
+ o que é x
+ \`\`\` </code></pre>
+###Links
+<p>Você pode criar uma ligação com uma linha por envolvimento de links texto entre colchetes ( <code>[ ]</code> ), em seguida, envolver uma ligação entre parênteses ( <code>( )</code> ).</p>
+<p>Por exemplo, para criar um hiperlink para www.github.com, com o link que diz, Visite Github !, você escreveria isso em Markdown: <code>[Visit GitHub!](www.github.com)</code>.</p>
+###Veja Também
+<ul><li><a href="https://help.github.com/articles/github-flavored-markdown/">GitHub Flavored Markdown</a></li>
+<li><a href="https://help.github.com/articles/writing-on-github/">Escrevendo no GitHub</a>
+<li><a href="http://guides.github.com/features/mastering-markdown/">Dominando Markdown</a></li></ul>
+</html>
